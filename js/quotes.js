@@ -45,6 +45,9 @@ const quote = document.querySelector("#quote span:first-child");
 const author = document.querySelector("#quote span:last-child");
 
 todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
+// Math.random() * ? 은 랜덤한 수를 가져오고 싶을때쓴다.
+// Math.floor() 은 1.99999까지 1로 내려준다.
+// Math.random() * ? < 물음표에 들어갈 숫자는 Array의 갯수.
 
 quote.innerText = todaysQuote.quote;
 author.innerText = todaysQuote.author;
