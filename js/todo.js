@@ -50,3 +50,14 @@ if (savedToDos !== null) {
     const parsedToDos = JSON.parse(savedToDos);
     parsedToDos.forEach((item) => console.log("this is the turn of", item));
 }
+
+// 공부메모
+/*
+(item) => console.log("this is the turn of", item); << arrow function
+
+function sayHello(item) {
+    console.log("this is the turn of", item)
+}
+
+위 두개는 같은것이다.
+*/
